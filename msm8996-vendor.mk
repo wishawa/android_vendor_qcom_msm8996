@@ -1,7 +1,7 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/msm8996
 
-PRODUCT_COPY_FILES_OVERRIDE += \
+PRODUCT_COPY_FILES += \
     vendor/qcom/msm8996/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
     vendor/qcom/msm8996/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/qcom/msm8996/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
