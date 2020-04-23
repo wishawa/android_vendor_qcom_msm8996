@@ -1,1 +1,2 @@
 # proprietary_vendor_qcom_msm8996
+# android_vendor_qcom_msm8996
